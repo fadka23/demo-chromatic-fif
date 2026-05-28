@@ -7,10 +7,10 @@ import "./styles/theme.css";
 createRoot(document.getElementById("root")).render(
 	<React.StrictMode>
 		<CoverSlide
-			dayLabel="Day 4 of 4 TEESSTTTSSSSTSTSTS"
+			dayLabel="Day 4 of 4 TEESSTTTSSSSTSTSTS aaaa"
 			titleMain="Design Literacy"
 			titleAccent="Review & Storybook"
-			subtitle="A Storybook-ready version aaaa of your presentation design system."
+			subtitle="A Storybook-ready version aaaa of your presentation design system. aaaa"
 			agenda={sampleAgenda}
 			duration="8 Hours"
 			sessions="3 + Mini-Project"
