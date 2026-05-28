@@ -12,8 +12,8 @@
 		"build": "vite build",
 		"storybook": "storybook dev -p 6006 -c storybook",
 		"build-storybook": "storybook build -c storybook",
-		"chromatic": "chromatic --project-token=chpt_b4130ee7379ddba --config-file visual-regression/chromatic/chromatic.config.json",
-		"chromatic:strict": "chromatic --project-token=chpt_b4130ee7379ddba --config-file visual-regression/chromatic/chromatic.strict.config.json --exit-zero-on-changes=false",
+		"chromatic": "chromatic --project-token=chpt_b4130ee7379ddba --config-file visual-regression/chromatic/chromatic.config.json --force-rebuild",
+		"chromatic:strict": "chromatic --project-token=chpt_b4130ee7379ddba --config-file visual-regression/chromatic/chromatic.strict.config.json --exit-zero-on-changes=false --force-rebuild",
 		"chromatic:error-demo": "VITE_CHROMATIC_ERROR_DEMO_SEED=$(date +%s) chromatic --project-token=chpt_b4130ee7379ddba --config-file visual-regression/chromatic/chromatic.strict.config.json --exit-zero-on-changes=false --force-rebuild",
 		"test": "vitest run",
 		"lint": "eslint ."
