@@ -1,0 +1,10 @@
+.social-button {
+	border: none;
+	padding: 14px 32px;
+	border-radius: 999px;
+	background-color: #eef2ff;
+	color: #2563eb;
+	font-size: 18px;
+	font-weight: 600;
+	cursor: pointer;
+}
