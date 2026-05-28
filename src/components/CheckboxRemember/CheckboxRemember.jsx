@@ -4,7 +4,7 @@ export const CheckboxRemember = ({ label }) => {
 	return (
 		<label className="checkbox-remember">
 			<input type="checkbox" />
-			<span>title {label}</span>
+			<span>{label}</span>
 		</label>
 	);
 };
